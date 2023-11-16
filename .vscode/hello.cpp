@@ -13,7 +13,7 @@ int main()
     end = 11;
     end += 45;
     result = (start == end) ? "equal" : "not equal";
-    cout << "Hello People Who do you think" << ch << "you are?\n" << endl;
+    cout << "This is a second file" << ch << "you are?\n" << endl;
     cout << "False is actually a number " << result << endl;
     cout << "Start and End are equal? " << result << endl;
 
