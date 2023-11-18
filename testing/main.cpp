@@ -1,15 +1,26 @@
 #include <iostream>
 
+using namespace std;
 int main() {
 
-    int mynum, testnum, testresult;
-    mynum = 10;
-    testnum = 4;
-    testresult = mynum > testnum;
-    std::cout << "Mynum is greater then the test? " << testresult  << std::endl;
+    int i;
+    cout << "Enter an number." << endl;
+    cin >> i;
+
+    if (i > 100){
+        cout << "your number is greater than 100." << endl;
+    }
+
+    else if (i > 10)
+    {
+        cout << "your number is greater than 10." << endl;
+    }
+
+    else
+    {
+        cout << "What's the matter with you!" << endl;
+    }
 
 
-
-    std::cout << "Hello, World!" << std::endl;
     return 0;
 }
