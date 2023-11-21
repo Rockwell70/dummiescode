@@ -24,13 +24,16 @@ int main() {
 //Looping
     int x = 0;
 
-    for (int i = 1; i <= 100; i++)
-    {
+    for (int i = 1; i <= 100; i++) {
         x += i;
-        cout << x << endl;
+
+        if (x % 2 == 0) {
+            cout << x << " is even." << endl;
+        } else {
+            cout << x << " is odd." << endl;
+        }
+
     }
-
-
 
     return 0;
 }
