@@ -1,7 +1,7 @@
 #include <iostream>
 
 using namespace std;
-int mainvi() {
+int main() {
 
 //    int i;
 //    cout << "Enter an number." << endl;
