@@ -1,0 +1,3 @@
+/Users/rockwell/projects/dummiescode/mac_code/cmake-build-debug/CMakeFiles/mac_code.dir
+/Users/rockwell/projects/dummiescode/mac_code/cmake-build-debug/CMakeFiles/edit_cache.dir
+/Users/rockwell/projects/dummiescode/mac_code/cmake-build-debug/CMakeFiles/rebuild_cache.dir

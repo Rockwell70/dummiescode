@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "testing"
+			"path" : "mac_code"
 		}
 	],
 	"backtrace" : 1,
@@ -53,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "testing::@6890427a1f51a3e7e1df",
+	"id" : "mac_code::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "testing",
-	"nameOnDisk" : "testing",
+	"name" : "mac_code",
+	"nameOnDisk" : "mac_code",
 	"paths" : 
 	{
 		"build" : ".",

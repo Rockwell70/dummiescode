@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "testing",
+					"name" : "mac_code",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "testing::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-testing-Debug-2ade74949df468c60df5.json",
-					"name" : "testing",
+					"id" : "mac_code::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-mac_code-Debug-37315114fe3db5563511.json",
+					"name" : "mac_code",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/Users/rockwell/projects/dummiescode/testing/cmake-build-debug",
-		"source" : "/Users/rockwell/projects/dummiescode/testing"
+		"build" : "/Users/rockwell/projects/dummiescode/mac_code/cmake-build-debug",
+		"source" : "/Users/rockwell/projects/dummiescode/mac_code"
 	},
 	"version" : 
 	{
