@@ -40,7 +40,7 @@ int main() {
     string A = "Hello";
     string B = "1122334455";
 
-    for (autot i = 0, j = 0; i < 5; i++, j += 2)
+    for (auto i = 0, j = 0; i < 5; i++, j += 2)
     {
         cout << A[i] << B[j] << endl;
     }
