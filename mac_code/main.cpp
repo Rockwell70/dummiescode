@@ -11,22 +11,36 @@ int func2() {
     return 0;
 }
 
+//int main() {
+//    int i;
+//    cout << "Enter either 1 or 2\n" << endl;
+//    cin >> i;
+//    if (i == 1){
+//        func1();
+//
+//    } else if (i == 2) {
+//        func2();
+//    }
+//
+//    else{
+//        cout << "error!" << endl;
+//    }
+//
+//
+//}
+
+//this is looping with continue
+
 int main() {
     int i;
-    cout << "Enter either 1 or 2\n" << endl;
-    cin >> i;
-    if (i == 1){
-        func1();
-
-    } else if (i == 2) {
-        func2();
+    for (i=0; i < 10; i++){
+        cout << i << " ";
+        if (i == 5) {
+            cout << endl;
+            continue;
+        }
+        cout << i * 2 << endl;
     }
-
-    else{
-        cout << "error!" << endl;
-    }
-
-
+    cout << "Finished" << endl;
+    return 0;
 }
-
-
