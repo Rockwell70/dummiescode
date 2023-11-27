@@ -3,7 +3,7 @@
 using namespace std;
 int main() {
 
-//    int i;
+    int i;
 //    cout << "Enter an number." << endl;
 //    cin >> i;
 //
@@ -37,13 +37,28 @@ int main() {
 
 //Looping with multiple variables
 
-    string A = "Hello";
-    string B = "1122334455";
+//    string A = "Hello";
+//    string B = "1122334455";
+//
+//    for (auto i = 0, j = 0; i < 5; i++, j += 2)
+//    {
+//        cout << A[i] << B[j] << endl;
+//    }
+//
+//    return 0;
 
-    for (auto i = 0, j = 0; i < 5; i++, j += 2)
-    {
-        cout << A[i] << B[j] << endl;
+//Looping with continue
+
+    for (i = 1; i < 10; i++){
+        cout << i << " ";
+        if (i == 5){
+            cout << endl;
+            continue;
+        }
+        cout << i * 3 << endl;
     }
-
+    cout << "Finished" << endl;
     return 0;
+
+
 }
