@@ -5,84 +5,265 @@
 		<Option title="testing"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\OpenXLSX\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="/Users/rockwell/projects/dummiescode/testing/cmake-build-debug"/>
+				<Option working_dir="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testing">
-				<Option output="/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/testing" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/rockwell/projects/dummiescode/testing/cmake-build-debug"/>
+				<Option output="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/output/testing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add option="-DOPENXLSX_STATIC_DEFINE"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/headers"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing"/>
+					<CompileFile command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="testing/fast">
-				<Option output="/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/testing" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="/Users/rockwell/projects/dummiescode/testing/cmake-build-debug"/>
+				<Option output="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/output/testing.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/output"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="/usr/local/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/lib/clang/15.0.0/include"/>
-					<Add directory="/Library/Developer/CommandLineTools/usr/include"/>
-					<Add directory="/System/Library/Frameworks"/>
-					<Add directory="/Library/Frameworks"/>
+					<Add option="-DOPENXLSX_STATIC_DEFINE"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/headers"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing/fast"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 testing/fast"/>
+					<CompileFile command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="/Users/rockwell/projects/dummiescode/testing/cmake-build-debug"/>
+				<Option working_dir="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="/Users/rockwell/projects/dummiescode/testing/cmake-build-debug"/>
+				<Option working_dir="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="/usr/bin/make -j8 -f &quot;/Users/rockwell/projects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenXLSX">
+				<Option output="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/output/libOpenXLSXd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENXLSX_STATIC_DEFINE"/>
+					<Add option="-DCHARCONV_ENABLED"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/headers"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/external/zippy"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/external/pugixml"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/external/nowide"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX/Makefile&quot;  VERBOSE=1 OpenXLSX"/>
+					<CompileFile command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="OpenXLSX/fast">
+				<Option output="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/output/libOpenXLSXd.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add option="-DOPENXLSX_STATIC_DEFINE"/>
+					<Add option="-DCHARCONV_ENABLED"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/headers"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/external/zippy"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/external/pugixml"/>
+					<Add directory="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/external/nowide"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/x86_64-w64-mingw32"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include/c++/backward"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../include"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/include-fixed"/>
+					<Add directory="C:/dev/CLion 2023.2.2/bin/mingw/bin/../lib/gcc/x86_64-w64-mingw32/13.1.0/../../../../x86_64-w64-mingw32/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX/Makefile&quot;  VERBOSE=1 OpenXLSX/fast"/>
+					<CompileFile command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/dev/CLION2~1.2/bin/mingw/bin/mingw32-make.exe -f &quot;C:/Users/shabje/CLionProjects/dummiescode/testing/cmake-build-debug/OpenXLSX/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/Users/rockwell/projects/dummiescode/testing/main.cpp">
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLCell.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLCellIterator.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLCellRange.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLCellReference.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLCellValue.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLColor.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLColumn.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLContentTypes.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLDateTime.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLDocument.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLFormula.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLProperties.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLRelationships.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLRow.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLRowData.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLSharedStrings.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLSheet.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLWorkbook.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLXmlData.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLXmlFile.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/sources/XLZipArchive.cpp">
+			<Option target="OpenXLSX"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/main.cpp">
 			<Option target="testing"/>
 		</Unit>
-		<Unit filename="/Users/rockwell/projects/dummiescode/testing/CMakeLists.txt">
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\OpenXLSX\"/>
+		</Unit>
+		<Unit filename="C:/Users/shabje/CLionProjects/dummiescode/testing/OpenXLSX/OpenXLSXConfig.cmake">
+			<Option virtualFolder="CMake Files\OpenXLSX\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>
