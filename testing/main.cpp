@@ -57,7 +57,12 @@ int main() {
         }
         cout << i * 3 << endl;
     }
+
+    int x;
+    cout << "Enter a number";
     cout << "Finished" << endl;
+    cin >> x;
+    cout << "You entered " << x << endl;
     return 0;
 
 
